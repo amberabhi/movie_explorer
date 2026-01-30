@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Movie Explorer",
-      theme: ThemeData(
-        primarySwatch: Colors.amber,
-      ),
+      darkTheme: ThemeData.dark(),
       home: const HomePage(),
     );
   }
