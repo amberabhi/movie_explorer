@@ -25,9 +25,8 @@ Then sign in using your gmail after that navigate to settings tab and inside set
 
 4. Add your TMDB API key
 First make a directory inside the root directory named assets and under that directory add a file named .env 
-```bash
+
 TMDB_API_KEY=YOUR_API_KEY(THE ONE YOU COPIED IN STEP 3)
-```
 
 5. Run the app using `flutter run`
 
